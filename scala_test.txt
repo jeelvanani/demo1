@@ -1,0 +1,26 @@
+// defining class
+class Abc (var value1: String , var value2: Int , var value3: Float){
+
+  //defining method
+  def sentence()={
+    println(value1 + " xyz " +  value2 + " xyz " + value3);
+  }
+}
+
+//defining main
+object Main{
+  def main (args: Array[String]): Unit ={
+    //creating instance
+    
+	var jeel = new Abc ("Jeel", 10, 1.345)
+    
+    println(jeel.value1)
+    println(jeel.value2)
+    println(jeel.value3)
+    
+    //calling method
+    jeel.sentence()
+    
+    
+  }
+}
